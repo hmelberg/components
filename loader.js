@@ -1,16 +1,16 @@
 // ===== loader.js =====
 (function() {
   const mapping = {
-    'ui-altair':         'https://cdn.example.com/ui-altair.umd.js',
-    'ui-bokeh':          'https://cdn.example.com/ui-bokeh.umd.js',
-    'ui-comment':        'https://cdn.example.com/ui-comment.umd.js',
-    'ui-markmap':        'https://cdn.example.com/ui-markmap.umd.js',
-    'ui-multiple-choice':'https://cdn.example.com/ui-multiple-choice.umd.js',
-    'ui-test':           'https://cdn.example.com/ui-test.umd.js',
-    'ui-pivot':          'https://cdn.example.com/ui-pivot.umd.js',
-    'ui-poll':           'https://cdn.example.com/ui-poll.umd.js',
-    'ui-question':       'https://cdn.example.com/ui-question.umd.js',
-    'ui-tabulator':      'https://cdn.example.com/ui-tabulator.umd.js'
+    'ui-altair':         'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-altair.umd.js',
+    'ui-bokeh':          'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-bokeh.umd.js',
+    'ui-comment':        'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-comment.umd.js',
+    'ui-markmap':        'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-markmap.umd.js',
+    'ui-multiple-choice':'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-multiple-choice.umd.js',
+    'ui-test':           'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-test.umd.js',
+    'ui-pivot':          'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-pivot.umd.js',
+    'ui-poll':           'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-poll.umd.js',
+    'ui-question':       'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-question.umd.js',
+    'ui-tabulator':      'https://cdn.jsdelivr.net/gh/hmelberg/components@main/dist/ui-tabulator.umd.js'
   };
   document.addEventListener('DOMContentLoaded', () => {
     const loadTag = tag => {
