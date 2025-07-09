@@ -21,6 +21,6 @@
       if (showAnswer) { const a = document.createElement('div'); a.textContent = `Answer: ${answer}`; this.shadowRoot.append(a); }
     }
   }
-  customElements.define('ui-question', UIQuestion);
+  if (!customElements.get('ui-question')) customElements.define('ui-question', UIQuestion);
   return UIQuestion;
 }));
